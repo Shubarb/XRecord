@@ -1,0 +1,206 @@
+<resources>
+    <string name="app_name" translatable="false">BaseTemplate</string>
+
+    <string name="text_ads_shown" translatable="false">Ads are about to be shown…</string>
+    <string name="text_language" translatable="false">Language</string>
+    <string name="text_ok" translatable="false">OK</string>
+
+    <!-- FEEDBACK MESSAGE -->
+    <string name="email_feedback_subject" translatable="false">Feedback %1$s (%2$s)</string>
+    <string name="email_feedback_body" translatable="false">We\'d love to know how we made %1$s better!</string>
+    <string name="email_feedback_sent_from" translatable="false">Sent from %1$s | VS %2$s | SDK %3$s</string>
+    <string name="install_application_email" translatable="false">Can not open Email</string>
+
+    <string name="title_on_boarding_1"></string>
+    <string name="title_on_boarding_2"></string>
+    <string name="title_on_boarding_3"></string>
+    <string name="content_on_boarding_1"></string>
+    <string name="content_on_boarding_2"></string>
+    <string name="content_on_boarding_3"></string>
+
+    <string name="text_feedback">Feedback</string>
+    <string name="text_send">Send</string>
+    <string name="text_feedback_content">Please rate of leave feedback to help us improve Application</string>
+
+    <string name="text_rate_us">Rate Us</string>
+    <string name="text_thank_you">Thank You</string>
+    <string name="text_rate_content">5 stars is the best we can get,\nSupport us to develop  app better!</string>
+    <string name="text_rate_now">Rate Now</string>
+
+    <string name="text_loading">Loading…</string>
+
+    <string name="text_grant_permission">Grant Permission</string>
+    <string name="text_permission_content">To getting start , we need your photos permission access your photo library</string>
+    <string name="text_storage_permission">Storage Permission</string>
+    <string name="text_continue">Continue</string>
+
+    <string name="exit_app_title">Leave App?</string>
+    <string name="exit_app_content">Are you sure you want to close this app</string>
+    <string name="text_exit">Exit</string>
+
+    <string name="text_no_internet_connection">No Internet Connection</string>
+    <string name="text_please_check_internet_connection">Please check internet connection!</string>
+    <string name="text_retry">Retry</string>
+    <string name="text_no_internet_content">Need to connect to the internet in order to work .Please connect and try again</string>
+
+    <string name="app_name_firt">Screen</string>
+    <string name="app_name_second">Recorder</string>
+    <string name="menu_rate_us">Rate us</string>
+    <string name="menu_more_app">More app</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_language">Language</string>
+    <string name="menu_policy">Privacy Policy</string>
+    <string name="screen_recorder">Screen Recorder</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="no_video">No video has been recorded</string>
+    <string name="video_settings">Videos Settings</string>
+    <string name="resolution">Resolution</string>
+    <string name="bit_rate">Bit rate</string>
+    <string name="frame_per_second">Frames per second</string>
+    <string name="orientation">Orientation</string>
+    <string name="audio_settings">Audio Settings</string>
+    <string name="record_audio">Record audio</string>
+    <string name="save_options">Save Options</string>
+    <string name="custom_app">Custom App</string>
+    <string name="target_app">Enable target app</string>
+    <string name="chosse_app">Choose app</string>
+    <string name="detail_target_app">Open target app before recording</string>
+    <string name="detail_choose_app">Choose an app to start by default while recording</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="edit">Edit</string>
+    <string name="trim">Trim</string>
+    <string name="screenshots">Screenshot</string>
+    <string name="camera">Camera</string>
+    <string name="brush">Brush</string>
+    <string name="tools">Tools</string>
+    <string name="record">Record</string>
+    <string name="home">Home</string>
+    <string name="exit">Exit</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="stop">Stop</string>
+    <string name="size">Size</string>
+    <string name="recording_finished">Recording is finished</string>
+    <string name="screenshot_finished">Screenshot finished</string>
+    <string name="recording">Recording</string>
+    <string name="save_location">Save location</string>
+    <string name="file_name_fomart">File name format</string>
+    <string name="file_name_prefix">File name prefix</string>
+    <string name="record_setting">Recording Settings</string>
+    <string name="floating_control">Use Floating Controls</string>
+    <string name="description_floating_control">Enable/Disable floating controls which draws over every screen</string>
+    <string name="count_down_timer">Countdown Timer</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="description_vibrate">Enable/disable vibrate when touch</string>
+    <string name="description_camera_overlay">Enable/Disable Camera overlay. You can switch between front and back camera</string>
+    <string name="camera_overlay">Show Camera Overlay</string>
+    <string name="save_as_gif">Save as GIF</string>
+    <string name="delete">Delete</string>
+    <string name="experimental">Experimental</string>
+    <string name="detail_save_as_gif">Enables saving videos as GIF animation</string>
+    <string name="shake_in_record">Shake to start/stop recording</string>
+    <string name="detail_shake">Shake your device to start or stop recording</string>
+    <string name="content_notification_shake">Shake your device to start recording or press this notification to cancel</string>
+    <string name="guide_activity_title">Please permit usage access</string>
+    <string name="guide_activity_description">You need to grant Usage Access permission to enable this feature</string>
+    <string name="trim_video_success">Success</string>
+    <string name="trim_video_failed">Failed</string>
+    <string name="video">Video</string>
+    <string name="picture">Image</string>
+    <string name="setting">Setting</string>
+    <string name="no_image">No Image</string>
+    <string name="close">Close</string>
+    <string name="share">Share</string>
+    <string name="menu_feedback">Send feedback</string>
+    <string name="start_record">Start Record</string>
+    <string name="record_failed">Record failed</string>
+    <string name="grant_app_permission">Grant App Usage Permission for a comprehensive phone scan effect</string>
+    <string name="permission_needed">Permission Needed</string>
+    <string name="grant_now">Grant Now</string>
+    <string name="record_audio_permission">Grant permission to record with mic</string>
+    <string name="external_storage_permission">Grant access to the external storage memory in the device</string>
+    <string name="overlay_permission">Grant permission to display on other applications</string>
+    <string name="not_open_video">Can\'t open video</string>
+
+    <string name="bitrate_0">1.0 Mbit (Very low)</string>
+    <string name="bitrate_1">2.5 Mbit</string>
+    <string name="bitrate_2">3.5 Mbit (low)</string>
+    <string name="bitrate_3">4.5 Mbit</string>
+    <string name="bitrate_4">6.8 Mbit (Good)</string>
+    <string name="bitrate_5">9.8 Mbit</string>
+    <string name="bitrate_6">12 Mbit (Excellent)</string>
+    <string name="bitrate_7">24 Mbit (Warning)</string>
+    <string name="bitrate_8">48 Mbit (Warning)</string>
+
+    <string name="resolution_0">360P</string>
+    <string name="resolution_1">720P</string>
+    <string name="resolution_2">1080P</string>
+    <string name="resolution_3">1440P</string>
+
+    <string name="frame_0">25s</string>
+    <string name="frame_1">30s</string>
+    <string name="frame_2">35s</string>
+    <string name="frame_3">40s</string>
+    <string name="frame_4">50s</string>
+    <string name="frame_5">60s</string>
+
+    <string name="orientation_0">Auto</string>
+    <string name="orientation_1">Portrait</string>
+    <string name="orientation_2">Landscape</string>
+
+    <string name="audio_title_0">None</string>
+    <string name="audio_title_1">Mic</string>
+    <string name="audio_title_2">Internal</string>
+    <string name="audio_title_3">Mic and Internal</string>
+
+    <string name="audio_description_0">Silent video recording.</string>
+    <string name="audio_description_1">Record your voice and sounds from outside the phone.</string>
+    <string name="audio_description_2">Only support android 10 and above. Your app or game also needs to support internal audio recording.</string>
+    <string name="audio_description_3">Only support android 10 and above. Your app or game also needs to support internal audio recording.</string>
+
+    <string name="name_format_0">yyyyMMdd_hhmmss</string>
+    <string name="name_format_1">ddMMyyyy_hhmmss</string>
+    <string name="name_format_2">yyMMdd_hhmmss</string>
+    <string name="name_format_3">ddMMyy_hhmmss</string>
+    <string name="name_format_4">hhMMss_yyyymmdd</string>
+    <string name="name_format_5">hhMMss_ddmmyyyy</string>
+    <string name="name_format_6">hhMMss_yymmdd</string>
+    <string name="name_format_7">hhMMss_ddmmyy</string>
+
+    <string name="language_0">English</string>
+    <string name="language_1">Português</string>
+    <string name="language_2">Tiếng Việt</string>
+    <string name="language_3">русский</string>
+    <string name="language_4">हिन्दी</string>
+    <string name="language_5">日本語</string>
+    <string name="language_6">한국어</string>
+    <string name="language_7">Türk</string>
+    <string name="language_8">French</string>
+    <string name="language_9">Spanish</string>
+    <string name="language_10">عربى</string>
+
+    <string name="timer_0">None</string>
+    <string name="timer_1">3s</string>
+    <string name="timer_2">5s</string>
+    <string name="timer_3">7s</string>
+    <string name="timer_4">10s</string>
+    <string name="cant_trim_video">Can\'n trim this video</string>
+    <string name="delete_video">Delete Video</string>
+    <string name="title_exit_app">Exit App</string>
+    <string name="str_exit_app">Do you want to exit App?</string>
+    <string name="text_policy_format">Agree</string>
+    <string name="text_start_now">Start Now</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="remove_ads">Remove Ads</string>
+    <string name="remove_ads_now">Continue</string>
+    <string name="str_remove_ads">Remove ads permanetly to be uninterruption and have good experience</string>
+    <string name="notification_channel_id">notification_channel_id</string>
+    <string name="loading_ads">Loading Ads</string>
+    <string name="discount_rm">Get 50% off with no ad version</string>
+    <string name="get_now">Now</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

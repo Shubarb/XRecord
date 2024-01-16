@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Theme Dialog-->
+    <style name="ThemeDialog" parent="android:Theme.Holo.Dialog">
+        <item name="android:windowMinWidthMajor">85%</item>
+        <item name="android:windowMinWidthMinor">85%</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+    </style>
+
+    <style name="ThemeDialogExit" parent="android:Theme.Holo.Dialog">
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:windowMinWidthMajor">100%</item>
+    </style>
+
+    <style name="AdAttribution">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:text">Ad</item>
+        <item name="android:background">#FFCC66</item>
+        <item name="android:width">32dp</item>
+        <item name="android:height">18dp</item>
+    </style>
+
+    <style name="ThemeBottomSheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/StyleBottomSheet</item>
+    </style>
+
+    <style name="StyleBottomSheet" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="IconToolbar">
+        <item name="android:layout_width">?android:attr/actionBarSize</item>
+        <item name="android:layout_height">?android:attr/actionBarSize</item>
+        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="android:padding">@dimen/_12sdp</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="Theme.AppCompat" parent="Base.Theme.AppCompat"/>
+</resources>

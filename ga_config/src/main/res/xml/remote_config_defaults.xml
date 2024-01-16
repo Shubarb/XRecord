@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+
+    <entry>
+        <key>start_open</key>
+        <value>ca-app-pub-3940256099942544/3419835294</value>
+    </entry>
+
+    <entry>
+        <key>resume_open</key>
+        <value>ca-app-pub-3940256099942544/3419835294</value>
+    </entry>
+
+    <entry>
+        <key>inters_in_app</key>
+        <value>ca-app-pub-3940256099942544/1033173712</value>
+    </entry>
+
+    <entry>
+        <key>id_native_first</key>
+        <value>ca-app-pub-3940256099942544/2247696110</value>
+    </entry>
+
+    <entry>
+        <key>id_native_on_board</key>
+        <value>ca-app-pub-3940256099942544/2247696110</value>
+    </entry>
+
+    <entry>
+        <key>native_in_app</key>
+        <value>ca-app-pub-3940256099942544/2247696110</value>
+    </entry>
+
+    <entry>
+        <key>id_inters_splash</key>
+        <value>ca-app-pub-3940256099942544/1033173712</value>
+    </entry>
+
+    <entry>
+        <key>banner_in_app</key>
+        <value>ca-app-pub-3940256099942544/6300978111</value>
+    </entry>
+
+    <entry>
+        <key>banner_in_app</key>
+        <value>ca-app-pub-3940256099942544/5224354917</value>
+    </entry>
+
+    <entry>
+        <key>update</key>
+        <value>
+            eyJ0aXRsZSI6IkJsb29kIFByZXNzdXJlIiwiZGVzIjoiMS4gRml4IHNvbWUgdGVycmlibGUgYnVncy5cbjIuIFVwZGF0ZSBtb3JlIGVmZmVjdHMuXG4zLiBJbXByb3ZlIGxvYWRpbmcgZXhwZXJpZW5jZS4iLCJzdGF0dXMiOjEsInVybCI6Imh0dHBzOi8vcGxheS5nb29nbGUuY29tL3N0b3JlL2FwcHMvZGV0YWlscz9pZD1jb20uYWJjLnh5eiIsImZvcmNlIjpmYWxzZSwibnVtYmVyX3Nob3ciOjEsInZlcnNpb25fY29kZSI6MjMsInZlcnNpb25fbmFtZSI6IlYyLjAuMCIsImJhbm5lcl91cGRhdGUiOiJodHRwczovL2kuaWJiLmNvL2tEZzJGUlMvYmctdXBkYXRlLXZlcnNpb24ucG5nIn0=
+        </value>
+    </entry>
+
+</defaultsMap>

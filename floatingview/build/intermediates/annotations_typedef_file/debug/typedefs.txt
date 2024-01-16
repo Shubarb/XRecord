@@ -1,0 +1,2 @@
+D jp/com/lifestyle/floating/view/FloatingView$AnimationState
+D jp/com/lifestyle/floating/view/TrashView$AnimationState

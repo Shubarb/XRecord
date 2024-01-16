@@ -1,0 +1,29 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\App code\BaseXRecord\floatingview\src\main\AndroidManifest.xml:1:1-4:12
+INJECTED from E:\App code\BaseXRecord\floatingview\src\main\AndroidManifest.xml:1:1-4:12
+INJECTED from E:\App code\BaseXRecord\floatingview\src\main\AndroidManifest.xml:1:1-4:12
+	package
+		ADDED from E:\App code\BaseXRecord\floatingview\src\main\AndroidManifest.xml:1:11-51
+		INJECTED from E:\App code\BaseXRecord\floatingview\src\main\AndroidManifest.xml
+		INJECTED from E:\App code\BaseXRecord\floatingview\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\App code\BaseXRecord\floatingview\src\main\AndroidManifest.xml:2:11-57
+	xmlns:android
+		ADDED from E:\App code\BaseXRecord\floatingview\src\main\AndroidManifest.xml:1:1-4:12
+uses-sdk
+ADDED from E:\App code\BaseXRecord\floatingview\src\main\AndroidManifest.xml:3:5-74
+INJECTED from E:\App code\BaseXRecord\floatingview\src\main\AndroidManifest.xml:3:5-74
+INJECTED from E:\App code\BaseXRecord\floatingview\src\main\AndroidManifest.xml:3:5-74
+INJECTED from E:\App code\BaseXRecord\floatingview\src\main\AndroidManifest.xml:3:5-74
+INJECTED from E:\App code\BaseXRecord\floatingview\src\main\AndroidManifest.xml:3:5-74
+	tools:overrideLibrary
+		ADDED from E:\App code\BaseXRecord\floatingview\src\main\AndroidManifest.xml:3:15-71
+	android:targetSdkVersion
+		INJECTED from E:\App code\BaseXRecord\floatingview\src\main\AndroidManifest.xml
+		ADDED from E:\App code\BaseXRecord\floatingview\src\main\AndroidManifest.xml:3:5-74
+		INJECTED from E:\App code\BaseXRecord\floatingview\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\App code\BaseXRecord\floatingview\src\main\AndroidManifest.xml
+		ADDED from E:\App code\BaseXRecord\floatingview\src\main\AndroidManifest.xml:3:5-74
+		INJECTED from E:\App code\BaseXRecord\floatingview\src\main\AndroidManifest.xml

@@ -1,0 +1,4 @@
+<manifest package="jp.com.lifestyle.floating.view"
+          xmlns:tools="http://schemas.android.com/tools">
+    <uses-sdk tools:overrideLibrary="android.support.dynamicanimation" />
+</manifest>

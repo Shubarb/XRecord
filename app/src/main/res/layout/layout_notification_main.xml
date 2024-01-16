@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bgr_notification_main"
+            android:orientation="horizontal"
+            android:padding="@dimen/_4sdp">
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_3sdp"
+                android:layout_marginEnd="@dimen/_13sdp"
+                android:contentDescription="@null"
+                android:padding="@dimen/_2sdp"
+                android:src="@drawable/ic_512" />
+
+            <TextView
+                android:layout_width="@dimen/_1sdp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_marginBottom="@dimen/_6sdp"
+                android:background="@color/color_19000000" />
+
+            <RelativeLayout
+                android:id="@+id/noti_record"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imv_record"
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:layout_centerHorizontal="true"
+                    android:padding="@dimen/_3sdp"
+                    android:src="@drawable/ic_record"
+                    android:tint="@color/color_style_icon_app" />
+
+                <TextView
+                    android:id="@+id/tv_record"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imv_record"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:ellipsize="middle"
+                    android:singleLine="true"
+                    android:text="@string/record"
+                    android:textColor="@color/color_828282"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/noti_screen_shot"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imv_capture"
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:layout_centerHorizontal="true"
+                    android:padding="@dimen/_3sdp"
+                    android:src="@drawable/ic_camera"
+                    android:tint="@color/color_style_icon_app" />
+
+                <TextView
+                    android:id="@+id/tv_screenshot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imv_capture"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:ellipsize="middle"
+                    android:singleLine="true"
+                    android:text="@string/screenshots"
+                    android:textColor="@color/color_828282"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/noti_home"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imv_home"
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:layout_centerHorizontal="true"
+                    android:padding="@dimen/_1sdp"
+                    android:src="@drawable/ic_home_app"
+                    android:tint="@color/color_style_icon_app" />
+
+                <TextView
+                    android:id="@+id/tv_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imv_home"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:ellipsize="middle"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/home"
+                    android:textColor="@color/color_828282"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/noti_tools"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imv_cc"
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:layout_centerHorizontal="true"
+                    android:padding="@dimen/_4sdp"
+                    android:src="@drawable/ic_tools_app"
+                    android:tint="@color/color_style_icon_app" />
+
+                <TextView
+                    android:id="@+id/tv_tools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imv_cc"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:ellipsize="middle"
+                    android:singleLine="true"
+                    android:text="@string/tools"
+                    android:textColor="@color/color_828282"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/noti_exit"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/img_exit"
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:layout_centerHorizontal="true"
+                    android:padding="@dimen/_4sdp"
+                    android:src="@drawable/ic_close_notify"
+                    android:tint="@color/color_style_icon_app" />
+
+                <TextView
+                    android:id="@+id/tv_close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_exit"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:ellipsize="middle"
+                    android:singleLine="true"
+                    android:text="@string/close"
+                    android:textColor="@color/color_828282"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+</layout>

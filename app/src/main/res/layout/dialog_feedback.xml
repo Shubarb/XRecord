@@ -1,0 +1,81 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_dialog"
+        android:padding="@dimen/_12sdp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_feedback"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/img_feedback" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_close"
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_close" />
+
+        <TextView
+            android:id="@+id/tv_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_feedback"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center"
+            android:text="@string/text_feedback"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14ssp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_feedback"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center"
+            android:text="@string/text_feedback_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12ssp" />
+
+        <EditText
+            android:id="@+id/edt_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_below="@id/tv_content"
+            android:layout_marginVertical="@dimen/_12sdp"
+            android:background="@drawable/bg_edit_text"
+            android:fontFamily="@font/poppins_regular"
+            android:hint="@string/text_feedback_content"
+            android:padding="@dimen/_12sdp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/color_black_50"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:id="@+id/btn_feedback"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_42sdp"
+            android:layout_below="@id/edt_feedback"
+            android:layout_centerHorizontal="true"
+            android:layout_marginVertical="@dimen/_12sdp"
+            android:background="@drawable/bg_btn_fill_24"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center"
+            android:text="@string/text_send"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp" />
+
+    </RelativeLayout>
+</layout>
